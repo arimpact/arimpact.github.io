@@ -1,0 +1,179 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+  /* zocial */
+  [class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    text-shadow: 3px 3px 3px;
+    margin-right: 1em;
+  }
+
+* {
+  font-family: 'Lato', sans-serif;
+    /*border: 1px solid;*/
+}
+
+button {
+    padding: 12px;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(0,177,115,.75);
+    outline: 0;
+    border: 1px solid #ddd;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+h1,
+.front {
+  color: #747704;
+}
+
+footer {
+  margin: 20px 0 0 0;
+}
+
+footer a {
+  margin: 0 15px 0 0;
+  float: right;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+hr {
+  background: -webkit-gradient(linear,left bottom,right bottom,color-stop(0,transparent),color-stop(0.2,#000),color-stop(0.8,#000),color-stop(1,transparent));
+}
+
+.timesfont {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.mydesc {
+  width: 75%;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+.shadow  {
+  box-shadow: 0 0 15px #888888;
+  /*width: 30%;*/
+  /*width: calc((100% - 20px)/3);*/
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /*float: left;*/
+}
+
+.shadow:hover {
+    box-shadow: 0 0 50px #888888;
+}
+/*.col-sm-4:last-of-type {
+  margin-right: 0;
+}
+*/
+
+.aboutbox {
+  background-color: lightgrey;
+}
+
+.me {
+  font-size: 48px;
+  text-align: center;
+}
+
+.dark_blue {
+  background-color: #D3D3D3;
+  color: #efefef;
+}
+
+.logosmall {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.modal-text-center {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+nav {
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  transform: translate(-300px, 0);
+  translation: transform 0.3s ease;
+}
+
+nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+a#menu svg{
+  width: 40px;
+}
+
+.text-thin {
+  /*font-weight: 100;*/
+}
+
+
+@media (min-width: 768px) {
+  .col-sm-4 {
+    width: 32.4%;
+  }
+
+  .col-xs-9 {
+    margin-right: 25px;
+  }
+
+  .wrap {
+    display: flex;
+  }
+
+  .logosmall {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .col-sm-4 {
+    margin-left: 10px;
+  }
+
+  .col-xs-9, .mobile-logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .front {
+    font-size: 4vw;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  .me {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .mydesc {
+    width: 75%;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    line-height: 200%;
+ }
+
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/ownstyle.css">
+	<title>Project 1</title>
+</head>
+<body>
+
+	<main>
+			<div class="row wrap">
+				<div class="col-xs-3 mobile-logo">
+					<img class="img-responsive logosmall" src="images/myimage.jpg" alt="logo">
+				</div>
+				<div class="col-xs-9 text-right text-uppercase ffs">
+					<h1 class="text-thin titletext name">Steve Huang</h1>
+					<h3 class="front titletext">Developer Hopeful</h3>
+					<br><br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 aboutbox">
+					<br>
+					<div class="me timesfont">
+						About Me
+					</div>
+					<hr>
+					<br><br>
+					<div class="mydesc">
+						<p>Hello, I am Steve Huang and I am a Data/Reporting Analyst who have found his true passion in coding. I am aspiring to be a Web Developer and is now going through Udacity's Front-End Web Developer Nanodegree course. I love being able apply logical problem-solving skills while working on code and find the process of creating code based projects extremely exciting. Below are some of the project I've completed while taking the course, please have a look!</p>
+					</div>
+					<br><br>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center timesfont">Featured Projects</h2>
+				</div>
+			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-4">
+					<h3 class="text-center timesfont projecttitle">My Portfoilo</h3>
+					<img class="img-responsive clickable shadow"  src="images/Portfolio.png" alt="Web" data-toggle="modal" data-target="#Web">
+				</div>
+				<div class="col-sm-4">
+					<h3 class="text-center timesfont projecttitle">Arcade Game</h3>
+					<img class="img-responsive clickable shadow" src="images/Arcade.png" alt="Game" data-toggle="modal" data-target="#Game">
+				</div>
+				<div class="col-sm-4">
+				<h3 class="text-center timesfont projecttitle">My Resume</h3>
+					<img class="img-responsive clickable shadow" id="res-foc" src="images/Resume.png" alt="Resume" data-toggle="modal" data-target="#Resume">
+				</div>
+			</div>
+			<footer>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="https://github.com/arimpact" class="zocial-github">Github</a>
+						<a href="mailto:mingdash@gmail.com" class="zocial-gmail">Email</a>
+						<a href="https://www.linkedin.com/profile/view?id=AAkAAAEndKsBkCcmBp7aL9yUxRET7O8FaxQgSvQ&authType=NAME_SEARCH&authToken=jy5N&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A19362987%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1441261774565%2Ctas%3Asteve%20" class="zocial-linkedin">Linkedin</a>
+					</div>
+				</div>
+			</footer>
+
+			<div class="modal fade" id="Web" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title modal-text-center" id="myModalLabel">My Portfolio</h4>
+						</div>
+						<div class="modal-body modal-text-center">
+							<img class="img-responsive" src="images/Portfolio.png" alt="fun">
+							<a href="http://arimpact.github.io/FE-Nanodegree-Project-1/">
+								<button>View Portfoilo</button>
+							</a>
+							<a href="https://github.com/arimpact/FE-Nanodegree-Project-1">
+								<button>View Github</button>
+							</a>
+							<br><br>
+							<p class="modal-text-center">This is the first project required for us to complete by Udacity. This project taught me the basics of HTML and CSS. It also gave me an understanding to responsive website design and responsive imaging.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Game" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title modal-text-center" id="myModalLabel2">Arcade Game Project</h4>
+						</div>
+						<div class="modal-body modal-text-center">
+							<img class="img-responsive" src="images/Arcade.png" alt="game">
+							<a href="http://arimpact.github.io/frontend-nanodegree-arcade-game/">
+								<button>Play Game</button>
+							</a>
+							<a href="https://github.com/arimpact/frontend-nanodegree-arcade-game">
+								<button>View Github</button>
+							</a>
+							<br><br>
+							<p class="modal-text-center">This is an Arcade Game similar to the game Frogger. In this game I learned about Javascript Object Oriented programming. I leveraged class constructors and prototypes to create the player, enemies and other in game objects. Along with Javascript, the game is built based on html canvas imaging techniques.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="Resume" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title modal-text-center" id="myModalLabel3">My Resume</h4>
+						</div>
+						<div class="modal-body modal-text-center">
+							<p class="modal-text-center">This is my Resume</p>
+							<img class="img-responsive" src="images/Resume.png" alt="resume">
+							<a href="http://arimpact.github.io/frontend-nanodegree-resume/">
+								<button>View Resume</button>
+							</a>
+							<a href="https://github.com/arimpact/frontend-nanodegree-resume">
+								<button>View Github</button>
+							</a>
+							<br><br>
+							<p class="modal-text-center">This is my Resume. The resume is created with the intention of gaining practice with Javascript and JQuery along with some extra practice from the previously learned HTML and CSS.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
